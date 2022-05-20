@@ -1,0 +1,48 @@
+
+.social-bar{
+     position: fixed;
+     right: 0;
+     top: 35%;
+     font-size: 1.5rem;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     z-index: 100;
+}
+
+.icon {
+
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5%;
+}
+
+.icon-facebook{
+    background:  rgb(34, 58, 238);
+}
+
+.icon-twitter{
+    background: #08c4fd;
+}
+
+.icon-whatsapp{
+    background: #29c02c;
+}
+
+.icon-instagram{
+    background: #ed08fd;
+}
+
+.icon-github{
+    background: #8d959b;
+}
+
+.icon:first-child{
+    border-radius: 1rem 0 0 0 ;
+}
+
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+}
